@@ -1,6 +1,6 @@
 Facebook: 490.0.0.63.82  
 Instagram: 378.0.0.52.68  
-Messenger: 510.0.0.67.109  
+Messenger: 511.0.0.69.109  
 Music: 8.05.51  
 Reddit: 2024.17.0  
 YouTube: 20.12.46  
