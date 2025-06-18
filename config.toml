@@ -1,10 +1,5 @@
-logging-to-file = true      # enables logging of every patch process to a seperate file
+logging-to-file = true
 parallel-jobs = 1
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
 
 [YouTube]
 enabled = true
