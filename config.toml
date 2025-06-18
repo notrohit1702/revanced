@@ -43,6 +43,8 @@ enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "arm64-v8a"
+patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "ReVanced Experiments"
 
 [Facebook]
 enabled = true
