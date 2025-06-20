@@ -15,7 +15,7 @@ apkmirror-dpi = "120-640dpi"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-patcher-args = "-e 'Change Package Name' -0packageNameReddit='com.reddit.frontpage.rvx' -e 'Settings for Reddit' -0rvxSettingsLabel = 'ReVanced Extended'"
+patcher-args = "-e 'Change Package Name' -OpackageNameReddit='com.reddit.frontpage.rvx' -e 'Settings for Reddit' -OrvxSettingsLabel = 'ReVanced Extended'"
 
 [Music]
 enabled = true
