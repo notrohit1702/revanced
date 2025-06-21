@@ -1,6 +1,6 @@
 • Facebook: `490.0.0.63.82`  
 • Instagram: `378.0.0.52.68`  
-• Messenger: `512.0.0.54.109`  
+• Messenger: `512.1.0.67.109`  
 • Music: `8.05.51`  
 • Reddit: `2025.12.1`  
 • YouTube: `20.12.46`  
