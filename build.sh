@@ -39,6 +39,8 @@ if [ "${2-}" = "--config-update" ]; then
 	exit 0
 fi
 
+: >build.md
+
 ENABLE_MAGISK_UPDATE=$(toml_get "$main_config_t" enable-magisk-update) || ENABLE_MAGISK_UPDATE=true
 if [ "$ENABLE_MAGISK_UPDATE" = true ] && [ -z "${GITHUB_REPOSITORY-}" ]; then
 	pr "You are building locally. Magisk updates will not be enabled."
