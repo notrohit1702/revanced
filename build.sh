@@ -165,7 +165,7 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
-log "\nInstall [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music."
+log "\nInstall [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music.\n"
 log "$(cat "$TEMP_DIR"/*-rv/changelog.md)"
 
 SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
