@@ -1,9 +1,8 @@
 logging-to-file = true
 parallel-jobs = 1
 
-[YouTube-Music]
+[Music]
 enabled = true
-app-name = "YouTube Music"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
