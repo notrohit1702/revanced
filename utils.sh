@@ -86,7 +86,7 @@ get_rv_prebuilts() {
 			name=$(jq -r .name <<<"$asset")
 			file="${dir}/${name}"
 			gh_dl "$file" "$url" >&2 || return 1
-			echo "$tag: $(cut -d/ -f1 <<<"$src")/${name}  " >>"${cl_dir}/changelog.md"
+			echo "> $tag: \`$(cut -d/ -f1 <<<"$src")/${name}\`  " >>"${cl_dir}/changelog.md"
 		else
 			grab_cl=false
 			local for_err=$file
@@ -539,7 +539,7 @@ build_rv() {
 	if ! OP=$(check_sig "$stock_apk" "$pkg_name" 2>&1) && ! grep -qFx "ERROR: Missing META-INF/MANIFEST.MF" <<<"$OP"; then
 		abort "apk signature mismatch '$stock_apk': $OP"
 	fi
-	log "\- ${table}: \`${version}\`"
+	log "- ${table}: \`${version}\`"
 
 	local microg_patch
 	microg_patch=$(grep "^Name: " <<<"$list_patches" | grep -i "gmscore\|microg" || :) microg_patch=${microg_patch#*: }
