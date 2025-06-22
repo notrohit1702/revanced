@@ -1,6 +1,22 @@
 logging-to-file = true
 parallel-jobs = 1
 
+[YouTube]
+enabled = true
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+patcher-args = "-e 'Theme' -OlightThemeBackgroundColor='@android:color/system_neutral1_50'"
+
+[Reddit]
+enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
+apkmirror-dpi = "120-640dpi"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+patcher-args = "-e 'Change Package Name' -OpackageNameReddit='anddea.reddit' -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended'"
+
 [Music]
 enabled = true
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -11,21 +27,6 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 patcher-args = "-e 'Settings for YouTube Music' -OrvxSettingsLabel='ReVanced Extended' -e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon='revanced'"
-
-[YouTube]
-enabled = true
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-
-[Reddit]
-enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
-apkmirror-dpi = "120-640dpi"
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-patcher-args = "-e 'Change Package Name' -OpackageNameReddit='anddea.reddit' -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended'"
 
 [Messenger]
 enabled = true
