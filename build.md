@@ -1,13 +1,11 @@
-- Facebook: `490.0.0.63.82`  
-- Instagram: `378.0.0.52.68`  
-- Messenger: `517.0.0.41.109`  
-- YouTube: `20.13.41`  
+- Music: `8.12.53`  
+- Reddit: `2025.12.1`  
 
 Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music.
   
-> CLI: `j-hc/revanced-cli-5.0.0-all.jar`  
-> Patches: `ReVanced/patches-5.32.0.rvp`  
-> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.32.0)  
+> CLI: `inotia00/revanced-cli-5.0.1-all.jar`  
+> Patches: `anddea/patches-3.11.0.rvp`  
+> [Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.11.0)  
 
 Skipped:  
-> Patches: `anddea/patches-3.10.0.rvp`    
+> Patches: `ReVanced/patches-5.32.0.rvp`    
