@@ -17,6 +17,12 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 patcher-args = "-e 'Change Package Name' -OpackageNameReddit='anddea.reddit' -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended'"
 
+[Facebook]
+enabled = true
+# apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/facebook"
+uptodown-dlurl = "https://facebook.en.uptodown.com/android"
+arch = "arm64-v8a"
+
 [Music]
 enabled = true
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
