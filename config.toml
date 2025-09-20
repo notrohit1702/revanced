@@ -17,7 +17,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 patcher-args = "-e 'Change Package Name' -OpackageNameReddit='anddea.reddit' -e 'Settings for Reddit' -OrvxSettingsLabel='ReVanced Extended'"
 
-[Facebook]
+[Facebook2]
 enabled = true
 # apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/facebook"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
