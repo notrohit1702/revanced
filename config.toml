@@ -1,3 +1,5 @@
+parallel-jobs = 1
+
 [YouTube]
 enabled = true
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
