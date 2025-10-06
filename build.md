@@ -12,4 +12,7 @@ Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube an
 
 > CLI: `j-hc/revanced-cli-5.0.0-all.jar`  
 > Patches: `ReVanced/patches-5.41.0.rvp`  
-> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.41.0)  
+> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.41.0)
+
+> Patches: `ReVanced/patches-5.42.0-dev.12.rvp`  
+> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0-dev.12)  
