@@ -1,4 +1,4 @@
-- Instagram: `400.0.0.49.68`  
+- Instagram: `401.0.0.48.79`  
 - Messenger: `527.0.0.47.108`  
 - Music: `8.30.54`  
 - Reddit: `2025.12.1`  
@@ -14,5 +14,5 @@ Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube an
 > Patches: `ReVanced/patches-5.41.0.rvp`  
 > [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.41.0)
 
-> Patches: `ReVanced/patches-5.42.0-dev.12.rvp`  
-> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0-dev.12)  
+> Patches: `ReVanced/patches-5.42.0-dev.17.rvp`  
+> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0-dev.17)  
