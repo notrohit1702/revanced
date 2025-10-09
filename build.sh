@@ -131,7 +131,6 @@ for table_name in $(toml_get_table_names); do
 	fi
 
 	app_args[dpi]=$(toml_get "$t" dpi) || app_args[dpi]="nodpi"
-	app_args[dpi]=$(toml_get "$t" apkmirror-dpi) || app_args[dpi]="nodpi"
 	table_name_f=${table_name,,}
 	table_name_f=${table_name_f// /-}
 	app_args[module_prop_name]=$(toml_get "$t" module-prop-name) || app_args[module_prop_name]="${table_name_f}-jhc"
