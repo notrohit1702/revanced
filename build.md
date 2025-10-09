@@ -5,11 +5,11 @@
 Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music.
   
 > CLI: `j-hc/revanced-cli-5.0.0-all.jar`  
-> Patches: `ReVanced/patches-5.42.0.rvp`  
-> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0)
+> Patches: `ReVanced/patches-5.42.1.rvp`  
+> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.1)
 
-> Patches: `ReVanced/patches-5.42.0-dev.19.rvp`  
-> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.0-dev.19)  
+> Patches: `ReVanced/patches-5.42.1-dev.1.rvp`  
+> [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.42.1-dev.1)  
 
 Skipped:  
-> Patches: `anddea/patches-3.14.0.rvp`    
+> Patches: `anddea/patches-3.14.0.rvp`      
