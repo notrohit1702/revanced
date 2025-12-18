@@ -1,5 +1,5 @@
 parallel-jobs = 1
-dpi = "nodpi anydpi 120-640dpi"
+dpi = "nodpi anydpi 480-640dpi 320-640dpi 320-480dpi 240-480dpi 213-640dpi 160-480dpi 120-640dpi 480dpi 320dpi 240dpi 160dpi"
 
 [YouTube]
 enabled = true
