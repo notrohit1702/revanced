@@ -10,7 +10,6 @@ patcher-args = "-e 'Hide Shorts components' -OhideShortsAppShortcut=true -OhideS
 [Reddit]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
-dpi = "120-640dpi"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
@@ -29,17 +28,16 @@ patcher-args = "-e 'Settings for YouTube Music' -OrvxSettingsLabel='ReVanced Ext
 
 [Messenger]
 enabled = true
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [Instagram]
 enabled = true
-# apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 version = "beta"
 arch = "arm64-v8a"
-dpi = "320-480dpi"
 included-patches = "'Enable developer menu' 'Open links externally'"
 patcher-args = "-e 'Hide navigation buttons' -OhideReels=false -OhideCreate=true"
 
