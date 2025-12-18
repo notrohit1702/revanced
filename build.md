@@ -1,6 +1,7 @@
 - Instagram: `410.0.0.53.71`  
 - Messenger: `536.0.0.46.216`  
 - Music: `8.30.54`  
+- Reddit: `2025.12.1`  
 - YouTube: `20.14.43`  
 
 Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music.
