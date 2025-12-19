@@ -77,6 +77,25 @@
             "allowIdChange": false
         },
         {
+            "id": "com.stremio.one",
+            "url": "https://www.stremio.com/downloads",
+            "author": "Stremio",
+            "name": "Stremio",
+            "installedVersion": null,
+            "latestVersion": null,
+            "apkUrls": null,
+            "otherAssetUrls": "[]",
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"intermediateLink\":[],\"customLinkFilterRegex\":\"\",\"filterByLinkText\":false,\"skipSort\":false,\"reverseSort\":false,\"sortByLastLinkSegment\":false,\"versionExtractWholePage\":false,\"requestHeader\":[{\"requestHeader\":\"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36\"}],\"defaultPseudoVersioningMethod\":\"partialAPKHash\",\"trackOnly\":false,\"versionExtractionRegEx\":\"[0-9]+\\\\.[0-9]+\\\\.[0-9]+\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"-\\\\d{7}-arm64\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"Stremio\",\"appAuthor\":\"Stremio\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"A video streaming application that allows you to watch and organize video content from different services, including movies, series, live TV and video channels.\",\"refreshBeforeDownload\":false}",
+            "lastUpdateCheck": null,
+            "pinned": false,
+            "categories": [],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": null,
+            "allowIdChange": false
+        },
+        {
             "id": "com.facebook.katana",
             "url": "https://github.com/notrohit1702/revanced",
             "author": "notrohit1702",
