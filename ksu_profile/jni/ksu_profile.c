@@ -46,7 +46,7 @@ struct app_profile {
             bool use_default;
             char template_name[KSU_MAX_PACKAGE_NAME];
 
-    struct root_profile profile;
+            struct root_profile profile;
         } rp_config;
 
         struct {
