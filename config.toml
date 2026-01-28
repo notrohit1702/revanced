@@ -3,25 +3,28 @@ dpi = "nodpi anydpi 480-640dpi 320-640dpi 320-480dpi 240-480dpi 213-640dpi 160-4
 
 [YouTube]
 enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 cli-source = "MorpheApp/morphe-cli"
 patches-source = "MorpheApp/morphe-patches"
 rv-brand = "Morphe"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Reddit]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-
-[Music]
-enabled = true
 cli-source = "MorpheApp/morphe-cli"
 patches-source = "MorpheApp/morphe-patches"
 rv-brand = "Morphe"
+
+[Music]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
+cli-source = "MorpheApp/morphe-cli"
+patches-source = "MorpheApp/morphe-patches"
+rv-brand = "Morphe"
 
 [Messenger]
 enabled = true
