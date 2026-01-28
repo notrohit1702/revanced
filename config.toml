@@ -15,7 +15,6 @@ apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 cli-source = "MorpheApp/morphe-cli"
 patches-source = "MorpheApp/morphe-patches"
-patches-version = "dev"
 rv-brand = "Morphe"
 
 [Music]
