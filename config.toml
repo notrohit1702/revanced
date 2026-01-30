@@ -11,6 +11,7 @@ rv-brand = "Morphe"
 
 [Reddit]
 enabled = true
+patches-version = "dev"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 cli-source = "MorpheApp/morphe-cli"
