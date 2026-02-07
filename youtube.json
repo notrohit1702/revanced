@@ -1,4 +1,5 @@
 "custom_branding_icon": "original",
+"disable_fullscreen_ambient_mode": true,
 "disable_like_subscribe_glow": true,
 "disable_resuming_shorts_player": true,
 "hide_ai_generated_video_summary_section": true,
