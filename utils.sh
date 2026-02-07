@@ -604,7 +604,7 @@ build_rv() {
 		# 	patcher_args+=("-d \"${spoof_client_patch}\"")
 		# fi
 		# if [ -n "$spoof_video_patch" ] && [[ ! ${p_patcher_args[*]} =~ $spoof_video_patch ]] && [ "$build_mode" = module ]; then
-		#	patcher_args+=("-d \"${spoof_video_patch}\"")
+		# 	patcher_args+=("-d \"${spoof_video_patch}\"")
 		# fi
 		if [ "${args[riplib]}" = true ]; then
 			patcher_args+=("--rip-lib x86_64 --rip-lib x86")
