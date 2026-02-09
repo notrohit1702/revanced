@@ -57,7 +57,7 @@
             "overrideSource": "GitHub",
             "allowIdChange": false
         },
-                {
+        {
             "id": "nu.gpu.nagram",
             "url": "https://github.com/risin42/NagramX",
             "author": "risin42",
