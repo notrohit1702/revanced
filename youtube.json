@@ -8,6 +8,7 @@
 "hide_comments_ai_chat_summary": true,
 "hide_comments_ai_summary": true,
 "hide_comments_by_members_header": true,
+"hide_comments_prompts": true,
 "hide_comments_section_in_home_feed": true,
 "hide_crowdfunding_box": true,
 "hide_featured_places_section": true,
