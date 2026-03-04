@@ -43,6 +43,8 @@
 "hide_toolbar_create_button": true,
 "hide_toolbar_voice_search_button": true,
 "miniplayer_type": "minimal",
+"open_system_share_sheet": true,
+"override_youtube_music_button": true,
 "playback_speed_dialog_button": true,
 "remember_playback_speed_last_selected": true,
 "remember_playback_speed_last_selected_toast": false,
