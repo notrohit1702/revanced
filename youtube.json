@@ -1,4 +1,5 @@
 "auto_captions_style": "both_disabled",
+"copy_video_url_timestamp": false,
 "custom_branding_icon": "original",
 "disable_fullscreen_ambient_mode": true,
 "disable_like_subscribe_glow": true,
@@ -43,7 +44,6 @@
 "hide_toolbar_create_button": true,
 "hide_toolbar_voice_search_button": true,
 "miniplayer_type": "minimal",
-"open_system_share_sheet": true,
 "override_youtube_music_button": true,
 "playback_speed_dialog_button": true,
 "remember_playback_speed_last_selected": true,
