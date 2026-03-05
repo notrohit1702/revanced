@@ -37,6 +37,7 @@
 "hide_remix_button": true,
 "hide_shorts_ai_button": true,
 "hide_shorts_auto_dubbed_label": true,
+"hide_shorts_button": true,
 "hide_shorts_home": true,
 "hide_shorts_paused_overlay_buttons": true,
 "hide_shorts_search": true,
