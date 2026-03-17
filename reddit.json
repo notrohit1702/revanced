@@ -7,4 +7,5 @@
 "hide_reddit_pro_shelf": true,
 "hide_resources_shelf": true,
 "hide_trending_today_shelf": true,
-"remove_notification_dialog": true
+"remove_notification_dialog": true,
+"show_view_count": true
