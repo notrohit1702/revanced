@@ -134,6 +134,25 @@
             "allowIdChange": false
         },
         {
+            "id": "com.deniscerri.ytdl",
+            "url": "https://github.com/deniscerri/ytdlnis",
+            "author": "deniscerri",
+            "name": "YTDLnis",
+            "installedVersion": null,
+            "latestVersion": null,
+            "apkUrls": null,
+            "otherAssetUrls": null,
+            "preferredApkIndex": 0,
+            "additionalSettings": "{\"includePrereleases\":false,\"fallbackToOlderReleases\":true,\"filterReleaseTitlesByRegEx\":\"\",\"filterReleaseNotesByRegEx\":\"\",\"verifyLatestTag\":false,\"dontSortReleasesList\":false,\"useLatestAssetDateAsReleaseDate\":false,\"releaseTitleAsVersion\":false,\"trackOnly\":false,\"versionExtractionRegEx\":\"\",\"matchGroupToUse\":\"\",\"versionDetection\":true,\"releaseDateAsVersion\":false,\"useVersionCodeAsOSVersion\":false,\"apkFilterRegEx\":\"\",\"invertAPKFilter\":false,\"autoApkFilterByArch\":true,\"appName\":\"YTDLnis\",\"shizukuPretendToBeGooglePlay\":false,\"allowInsecure\":false,\"exemptFromBackgroundUpdates\":false,\"skipUpdateNotifications\":false,\"about\":\"Full-featured audio/video downloader for Android using yt-dlp\",\"github-creds\":\"\"}",
+            "lastUpdateCheck": null,
+            "pinned": false,
+            "categories": [],
+            "releaseDate": null,
+            "changeLog": null,
+            "overrideSource": "GitHub",
+            "allowIdChange": false
+        },
+        {
             "id": "com.facebook.katana",
             "url": "https://github.com/notrohit1702/revanced",
             "author": "notrohit1702",
