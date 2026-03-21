@@ -12,6 +12,8 @@
 "hide_clip_button": true,
 "hide_comments_ai_chat_summary": true,
 "hide_comments_by_members_header": true,
+"hide_comments_carousel": true,
+"hide_comments_carousel_filter_strings": "Ask\nListen on YouTube Music",
 "hide_comments_prompts": true,
 "hide_comments_section_in_home_feed": true,
 "hide_crowdfunding_box": true,
