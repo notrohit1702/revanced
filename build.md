@@ -4,9 +4,8 @@
 
 Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music.
   
-> CLI: `MorpheApp/morphe-cli-1.6.2-all.jar`
-> Patches: `MorpheApp/patches-1.21.1.mpp`
-> [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.21.1)  
+> CLI: `MorpheApp/morphe-cli-1.6.3-all.jar`
+> Patches: `MorpheApp/patches-1.22.0.mpp`
+> [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)
 
-Skipped:  
-> Patches: `ReVanced/patches-6.1.0.rvp`    
+> CLI: `ReVanced/revanced-cli-6.0.0-all.jar`  
