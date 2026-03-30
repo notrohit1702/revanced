@@ -33,9 +33,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 version = "beta"
 arch = "arm64-v8a"
-patches-source = "brosssh/morphe-patches"
-included-patches = "'Enable developer menu'"
-patcher-args = "-e 'Hide navigation buttons' -OhideReels=false -OhideCreate=true"
+patches-source = "crimera/piko"
 
 [Facebook]
 enabled = false
