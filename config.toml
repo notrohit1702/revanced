@@ -36,7 +36,8 @@ arch = "arm64-v8a"
 patches-source = "crimera/piko"
 
 [Facebook]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/facebook"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 arch = "arm64-v8a"
+patches-source = "RookieEnough/De-ReVanced"
