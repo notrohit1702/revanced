@@ -341,7 +341,7 @@ apkmirror_search() {
 	if [ "$dpi" ]; then
 		appdpi+=($dpi)
 	fi
-	
+
 	for ((n = 1; n < 40; n++)); do
 		node=$($HTMLQ "div.table-row.headerFont:nth-last-child($n)" -r "span:nth-child(n+3)" <<<"$resp")
 		if [ -z "$node" ]; then break; fi
@@ -371,7 +371,7 @@ dl_apkmirror() {
 		merge_splits "${output}.apkm" "${output}"
 		return 0
 	fi
-
+	
 	if [ "$arch" = "arm-v7a" ]; then arch="armeabi-v7a"; fi
 	local resp node app_table apkmname dlurl=""
 	apkmname=$($HTMLQ "h1.marginZero" --text <<<"$__APKMIRROR_RESP__")
@@ -656,7 +656,7 @@ build_rv() {
 		sig_check_apk="${stock_apk}"
 	fi
 	if ! sig_op=$(check_sig "$sig_check_apk" "$pkg_name" 2>&1); then
-		epr "Not building $table, apk signature mismatch '$stock_apk': $sig_op"	
+		epr "Not building $table, apk signature mismatch '$stock_apk': $sig_op"
 		return 0
 	fi
 	rm -rf "${stock_apk}.base" || :
