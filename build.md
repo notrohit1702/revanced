@@ -1,17 +1,12 @@
-- Instagram: `423.0.0.39.66`  
-- Messenger: `554.0.0.59.70`  
+- Instagram: `423.0.0.47.66`  
 - Music: `8.44.54`  
 - Reddit: `2026.04.0`  
-- YouTube: `20.45.36`  
 
 Install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for YouTube and YouTube Music.
   
 > CLI: `MorpheApp/morphe-cli-1.6.3-all.jar`
-> Patches: `crimera/patches-3.1.0.mpp`
-> [Changelog](https://github.com/crimera/piko/releases/tag/v3.1.0)
+> Patches: `crimera/patches-3.2.0.mpp`
+> [Changelog](https://github.com/crimera/piko/releases/tag/v3.2.0)
 
-> Patches: `MorpheApp/patches-1.22.0.mpp`
-> [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)
-
-> Patches: `RookieEnough/patches-1.0.1.mpp`
-> [Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.1)  
+> Patches: `MorpheApp/patches-1.23.0.mpp`
+> [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.23.0)  
