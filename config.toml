@@ -15,6 +15,7 @@ enabled = true
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+included-patches = "'Hide Reddit search'"
 
 [Music]
 enabled = true
