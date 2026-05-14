@@ -48,7 +48,6 @@
 "hide_promote_button": true,
 "hide_quick_actions_ask_button": true,
 "hide_quick_actions_mix_button": true,
-"hide_quick_actions_more_videos_button": true,
 "hide_remix_button": true,
 "hide_shop_button": true,
 "hide_shorts_ai_button": true,
