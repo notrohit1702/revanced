@@ -190,7 +190,7 @@ config_update() {
 				abort "config_update error: '$last_patches'"
 			fi
 			if [ "$last_patches" ]; then
-				if ! OP=$(grep "^> Patches: \`${PATCHES_SRC%%/*}/\`" build.md | grep -m1 "$last_patches"); then
+				if ! OP=$(grep "^> Patches: \`${PATCHES_SRC%%/*}/" build.md | grep -m1 "$last_patches"); then
 					sources["$PATCHES_SRC/$PATCHES_VER"]=1
 					prcfg=true
 					upped+=("$table_name")
