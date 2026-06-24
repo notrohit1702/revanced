@@ -89,9 +89,6 @@
 "shorts_quality_default_mobile": 1080,
 "shorts_quality_default_wifi": 1080,
 "speed_tap_and_hold": 0,
-"spoof_app_version": true,
-"spoof_app_version_target": "20.39.41",
-"tablet_layout_in_player": true,
 "video_quality_default_mobile": 1080,
 "video_quality_default_wifi": 1080,
 "video_quality_dialog_button": true
