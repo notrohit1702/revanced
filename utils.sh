@@ -49,7 +49,7 @@ abort() {
 	epr "ABORT: ${1-}"
 	rm -rf ./${TEMP_DIR}/*tmp.* ./${TEMP_DIR}/*/*tmp.* ./${TEMP_DIR}/*-temporary-files ./*-temporary-files
 	trap - SIGTERM SIGINT EXIT
-	kill -- -$$ 2>/dev/null
+	kill -9 -- -$$ 2>/dev/null
 	exit 1
 }
 java() { env -i java --enable-native-access=ALL-UNNAMED "$@"; }
@@ -128,6 +128,7 @@ get_prebuilts() {
 		fi
 
 		if [ "$tag" = "Patches" ]; then
+			if [ "$grab_cl" = true ]; then echo -e "[Changelog](https://github.com/${src}/releases/tag/${tag_name})\n" >>"${cl_dir}/changelog.md"; fi
 			if [ "$grab_cl" = true ]; then echo -e "> [Changelog](https://github.com/${src}/releases/tag/${tag_name})\n" >>"${cl_dir}/changelog.md"; fi
 			if [ "$REMOVE_RV_INTEGRATIONS_CHECKS" = true ]; then
 				local extensions_ext
@@ -746,6 +747,8 @@ build_rv() {
 		if [ "$build_mode" = apk ]; then
 			if [ "${NORB:-}" != true ] || { [ ! -f "$patched_apk" ] && [ ! -f "$apk_output" ]; }; then
 				mv -f "$patched_apk" "$apk_output"
+			else
+				cp -f "$patched_apk" "$apk_output"
 			fi
 			pr "Built ${table} (non-root): '${apk_output}'"
 			continue
